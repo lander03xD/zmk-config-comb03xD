@@ -33,5 +33,11 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>; // Label of the matrix transform for this layout
-};
+    };
+    
+    
+    chosen {
+        zmk,kscan = &kscan;
+        zmk,physical-layout = &physical_layout;
+    };
 };
