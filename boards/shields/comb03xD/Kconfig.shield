@@ -1,0 +1,3 @@
+# No whitespace after the comma or in your keyboard name!
+config COMB03XD
+    def_bool $(shields_list_contains,comb03xD)
